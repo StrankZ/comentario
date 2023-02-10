@@ -1,0 +1,71 @@
+body {
+  background-color: rgba(135, 183, 211, 0.684);
+}
+hr {
+  height: 4px;
+  width: 60%;
+  background-color: #c95f0e;
+}
+
+h1 {
+  font-size: 70px;
+  text-align: center;
+  color: #c95f0e;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  font-size: 45px;
+  text-align: center;
+  color: #c95f0e;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h3 {
+  color: rgb(0, 0, 0);
+  text-align: left;
+}
+
+hr {
+  color: #c95f0e;
+}
+
+.titulos {
+  font-size: 40px;
+  padding: 5px;
+  width: 70%;
+  color: #a04907;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.textos {
+  font-size: 20px;
+  padding: 20px;
+  width: 70%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* css tricks style  */
+html::-webkit-scrollbar {
+  width: 10px;
+}
+html::-webkit-scrollbar-track {
+  background-color: rgb(144, 131, 131);
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #c95f0e;
+  border-radius: 10px;
+}
+/* minimalist design */
+html::-webkit-scrollbar {
+  width: 9px;
+}
